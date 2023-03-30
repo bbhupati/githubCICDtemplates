@@ -1,0 +1,5 @@
+jobs:
+  call-workflow-1-in-local-repo:
+    uses: commons/commons.yml
+  call-workflow-2-in-local-repo:
+    uses: templates/nuget-build.yml
